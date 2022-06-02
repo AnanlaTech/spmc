@@ -1,0 +1,727 @@
+{
+  "formatVersion" : "1.0",
+  "generatedAt" : "2022-06-02T06:46:22Z",
+  "generatedBy" : {
+    "name" : "Krishnan PA"
+  },
+  "name" : "Typetail Collection",
+  "overview" : "Packages created by Typetail",
+  "packages" : [
+    {
+      "keywords" : [
+        "database",
+        "ios",
+        "mobile",
+        "mobile-database",
+        "objective-c",
+        "realtime",
+        "swift",
+        "sync",
+        "threadsafe"
+      ],
+      "license" : {
+        "name" : "NOASSERTION",
+        "url" : "https://raw.githubusercontent.com/realm/realm-swift/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/realm/realm-swift/master/README.md",
+      "summary" : "Realm is a mobile database: a replacement for Core Data & SQLite",
+      "url" : "https://github.com/realm/realm-swift.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.27.0",
+          "version" : "v10.27.0"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.26.0",
+          "version" : "v10.26.0"
+        },
+        {
+          "defaultToolsVersion" : "5.3",
+          "manifests" : {
+            "5.3" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.3"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.25.2",
+          "version" : "v10.25.2"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v5.5.2",
+          "version" : "v5.5.2"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v5.5.1",
+          "version" : "v5.5.1"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v5.5.0",
+          "version" : "v5.5.0"
+        }
+      ]
+    },
+    {
+      "keywords" : [
+        "cache",
+        "filters",
+        "image",
+        "image-processor",
+        "ios",
+        "kingfisher",
+        "macos",
+        "swift",
+        "xcode"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/onevcat/Kingfisher/master/README.md",
+      "summary" : "A lightweight, pure-Swift library for downloading and caching images from the web.",
+      "url" : "https://github.com/onevcat/Kingfisher.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.14"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "5.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "7.2.2"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.14"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "5.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "7.2.1"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.14"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "5.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "7.2.0"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "10.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.12"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "10.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "3.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "6.3.1"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "10.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.12"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "10.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "3.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "6.3.0"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "10.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.12"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "10.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "3.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "6.2.1"
+        }
+      ]
+    }
+  ]
+}
