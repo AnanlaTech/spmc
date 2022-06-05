@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2022-06-02T06:46:22Z",
+  "generatedAt" : "2022-06-05T10:16:56Z",
   "generatedBy" : {
     "name" : "Krishnan PA"
   },
@@ -27,6 +27,70 @@
       "summary" : "Realm is a mobile database: a replacement for Core Data & SQLite",
       "url" : "https://github.com/realm/realm-swift.git",
       "versions" : [
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.28.0",
+          "version" : "v10.28.0"
+        },
         {
           "defaultToolsVersion" : "5.5",
           "manifests" : {
@@ -154,70 +218,6 @@
           },
           "summary" : "Jenkins Git plugin tagging with v10.26.0",
           "version" : "v10.26.0"
-        },
-        {
-          "defaultToolsVersion" : "5.3",
-          "manifests" : {
-            "5.3" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.3"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.25.2",
-          "version" : "v10.25.2"
         },
         {
           "defaultToolsVersion" : "5.0",
@@ -720,6 +720,175 @@
           },
           "summary" : "",
           "version" : "6.2.1"
+        }
+      ]
+    },
+    {
+      "keywords" : [
+        "ios",
+        "libyaml",
+        "linux",
+        "macos",
+        "swift",
+        "yaml"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/jpsim/Yams/main/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/jpsim/Yams/main/README.md",
+      "summary" : "A Sweet and Swifty YAML parser.",
+      "url" : "https://github.com/jpsim/Yams.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.4",
+          "manifests" : {
+            "5.4" : {
+              "packageName" : "Yams",
+              "products" : [
+                {
+                  "name" : "Yams",
+                  "targets" : [
+                    "Yams"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Yams",
+                  "name" : "Yams"
+                }
+              ],
+              "toolsVersion" : "5.4"
+            }
+          },
+          "summary" : "5.0.1",
+          "version" : "5.0.1"
+        },
+        {
+          "defaultToolsVersion" : "5.4",
+          "manifests" : {
+            "5.4" : {
+              "packageName" : "Yams",
+              "products" : [
+                {
+                  "name" : "Yams",
+                  "targets" : [
+                    "Yams"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Yams",
+                  "name" : "Yams"
+                }
+              ],
+              "toolsVersion" : "5.4"
+            }
+          },
+          "summary" : "5.0.0",
+          "version" : "5.0.0"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "Yams",
+              "products" : [
+                {
+                  "name" : "Yams",
+                  "targets" : [
+                    "Yams"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Yams",
+                  "name" : "Yams"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "4.0.6",
+          "version" : "4.0.6"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "Yams",
+              "products" : [
+                {
+                  "name" : "Yams",
+                  "targets" : [
+                    "Yams"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Yams",
+                  "name" : "Yams"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "4.0.5",
+          "version" : "4.0.5"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "Yams",
+              "products" : [
+                {
+                  "name" : "Yams",
+                  "targets" : [
+                    "Yams"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Yams",
+                  "name" : "Yams"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "4.0.4",
+          "version" : "4.0.4"
         }
       ]
     }
