@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2022-06-05T10:32:22Z",
+  "generatedAt" : "2022-07-03T18:24:58Z",
   "generatedBy" : {
     "name" : "Krishnan PA"
   },
@@ -88,136 +88,135 @@
               "toolsVersion" : "5.5"
             }
           },
+          "version" : "v10.28.2"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.28.1",
+          "version" : "v10.28.1"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
           "summary" : "Jenkins Git plugin tagging with v10.28.0",
           "version" : "v10.28.0"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.27.0",
-          "version" : "v10.27.0"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.26.0",
-          "version" : "v10.26.0"
         },
         {
           "defaultToolsVersion" : "5.0",
@@ -479,103 +478,103 @@
             }
           },
           "summary" : "",
+          "version" : "7.2.4"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.14"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "5.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
+          "version" : "7.2.3"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.14"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "5.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
           "version" : "7.2.2"
-        },
-        {
-          "defaultToolsVersion" : "5.1",
-          "manifests" : {
-            "5.1" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "12.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "10.14"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "12.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "5.0"
-                }
-              ],
-              "packageName" : "Kingfisher",
-              "products" : [
-                {
-                  "name" : "Kingfisher",
-                  "targets" : [
-                    "Kingfisher"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Kingfisher",
-                  "name" : "Kingfisher"
-                }
-              ],
-              "toolsVersion" : "5.1"
-            }
-          },
-          "summary" : "",
-          "version" : "7.2.1"
-        },
-        {
-          "defaultToolsVersion" : "5.1",
-          "manifests" : {
-            "5.1" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "12.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "10.14"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "12.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "5.0"
-                }
-              ],
-              "packageName" : "Kingfisher",
-              "products" : [
-                {
-                  "name" : "Kingfisher",
-                  "targets" : [
-                    "Kingfisher"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Kingfisher",
-                  "name" : "Kingfisher"
-                }
-              ],
-              "toolsVersion" : "5.1"
-            }
-          },
-          "summary" : "",
-          "version" : "7.2.0"
         },
         {
           "defaultToolsVersion" : "5.1",
@@ -993,6 +992,317 @@
           },
           "summary" : "3.4.2",
           "version" : "3.4.2"
+        }
+      ]
+    },
+    {
+      "keywords" : [
+        "database",
+        "db",
+        "enum",
+        "ios",
+        "realm",
+        "realmswift",
+        "struct",
+        "swift",
+        "xcode"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/arturdev/Unrealm/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/arturdev/Unrealm/master/README.md",
+      "summary" : "Unrealm is an extension on RealmCocoa, which enables Swift native types to be saved in Realm.",
+      "url" : "https://github.com/arturdev/Unrealm.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                }
+              ],
+              "packageName" : "Unrealm",
+              "products" : [
+                {
+                  "name" : "Unrealm",
+                  "targets" : [
+                    "Unrealm",
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "UnrealmObjC",
+                  "targets" : [
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Unrealm",
+                  "name" : "Unrealm"
+                },
+                {
+                  "moduleName" : "UnrealmObjC",
+                  "name" : "UnrealmObjC"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "",
+          "version" : "1.9.4"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                }
+              ],
+              "packageName" : "Unrealm",
+              "products" : [
+                {
+                  "name" : "Unrealm",
+                  "targets" : [
+                    "Unrealm",
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "UnrealmObjC",
+                  "targets" : [
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Unrealm",
+                  "name" : "Unrealm"
+                },
+                {
+                  "moduleName" : "UnrealmObjC",
+                  "name" : "UnrealmObjC"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "1.9.3"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                }
+              ],
+              "packageName" : "Unrealm",
+              "products" : [
+                {
+                  "name" : "Unrealm",
+                  "targets" : [
+                    "Unrealm",
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "UnrealmObjC",
+                  "targets" : [
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Unrealm",
+                  "name" : "Unrealm"
+                },
+                {
+                  "moduleName" : "UnrealmObjC",
+                  "name" : "UnrealmObjC"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "1.9.2"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "Unrealm",
+              "products" : [
+                {
+                  "name" : "Unrealm",
+                  "targets" : [
+                    "Unrealm",
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "UnrealmObjC",
+                  "targets" : [
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Unrealm",
+                  "name" : "Unrealm"
+                },
+                {
+                  "moduleName" : "UnrealmObjC",
+                  "name" : "UnrealmObjC"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "0.2.5"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "Unrealm",
+              "products" : [
+                {
+                  "name" : "Unrealm",
+                  "targets" : [
+                    "Unrealm",
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "UnrealmObjC",
+                  "targets" : [
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Unrealm",
+                  "name" : "Unrealm"
+                },
+                {
+                  "moduleName" : "UnrealmObjC",
+                  "name" : "UnrealmObjC"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "0.2.4"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "Unrealm",
+              "products" : [
+                {
+                  "name" : "Unrealm",
+                  "targets" : [
+                    "Unrealm",
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "UnrealmObjC",
+                  "targets" : [
+                    "UnrealmObjC"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Unrealm",
+                  "name" : "Unrealm"
+                },
+                {
+                  "moduleName" : "UnrealmObjC",
+                  "name" : "UnrealmObjC"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "0.2.3"
         }
       ]
     }
