@@ -19,6 +19,9 @@
     },
     {
       "url": "https://github.com/arturdev/Unrealm.git"
+    },
+    {
+      "url": "https://github.com/SwiftyJSON/SwiftyJSON.git"
     }
   ]
 }

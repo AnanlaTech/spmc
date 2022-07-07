@@ -1,12 +1,400 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2022-07-07T05:58:30Z",
+  "generatedAt" : "2022-07-07T06:16:25Z",
   "generatedBy" : {
     "name" : "Krishnan PA"
   },
   "name" : "Typetail Collection",
   "overview" : "Packages created by Typetail",
   "packages" : [
+    {
+      "url" : "https://github.com/realm/realm-swift.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "version" : "v10.28.2"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.28.1",
+          "version" : "v10.28.1"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.28.0",
+          "version" : "v10.28.0"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v5.5.2",
+          "version" : "v5.5.2"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v5.5.1",
+          "version" : "v5.5.1"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v5.5.0",
+          "version" : "v5.5.0"
+        }
+      ]
+    },
     {
       "keywords" : [
         "cache",
@@ -19,6 +407,11 @@
         "swift",
         "xcode"
       ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/onevcat/Kingfisher/master/README.md",
       "summary" : "A lightweight, pure-Swift library for downloading and caching images from the web.",
       "url" : "https://github.com/onevcat/Kingfisher.git",
       "versions" : [
@@ -313,6 +706,20 @@
       ]
     },
     {
+      "keywords" : [
+        "ios",
+        "libyaml",
+        "linux",
+        "macos",
+        "swift",
+        "yaml"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/jpsim/Yams/main/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/jpsim/Yams/main/README.md",
+      "summary" : "A Sweet and Swifty YAML parser.",
       "url" : "https://github.com/jpsim/Yams.git",
       "versions" : [
         {
@@ -471,6 +878,11 @@
       "keywords" : [
 
       ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/behrang/YamlSwift/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/behrang/YamlSwift/master/Readme.md",
       "summary" : "Load YAML and JSON documents using Swift",
       "url" : "https://github.com/behrang/YamlSwift.git",
       "versions" : [
@@ -869,6 +1281,154 @@
             }
           },
           "version" : "0.2.3"
+        }
+      ]
+    },
+    {
+      "keywords" : [
+        "carthage",
+        "cocoapods",
+        "json",
+        "json-parser",
+        "json-parsing-library",
+        "json-parsing-swift",
+        "request",
+        "response",
+        "swift",
+        "swift4-2",
+        "swiftyjson",
+        "xcode10"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/SwiftyJSON/SwiftyJSON/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/SwiftyJSON/SwiftyJSON/master/README.md",
+      "summary" : "The better way to deal with JSON data in Swift.",
+      "url" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "SwiftyJSON",
+              "products" : [
+                {
+                  "name" : "SwiftyJSON",
+                  "targets" : [
+                    "SwiftyJSON"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftyJSON",
+                  "name" : "SwiftyJSON"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "5.0.1"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "8.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "3.0"
+                }
+              ],
+              "packageName" : "SwiftyJSON",
+              "products" : [
+                {
+                  "name" : "SwiftyJSON",
+                  "targets" : [
+                    "SwiftyJSON"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftyJSON",
+                  "name" : "SwiftyJSON"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "5.0.0"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "8.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "3.0"
+                }
+              ],
+              "packageName" : "SwiftyJSON",
+              "products" : [
+                {
+                  "name" : "SwiftyJSON",
+                  "targets" : [
+                    "SwiftyJSON"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftyJSON",
+                  "name" : "SwiftyJSON"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "version" : "4.3.0"
         }
       ]
     }
