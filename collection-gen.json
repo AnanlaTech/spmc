@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2022-07-07T06:16:25Z",
+  "generatedAt" : "2022-08-09T08:02:48Z",
   "generatedBy" : {
     "name" : "Krishnan PA"
   },
@@ -8,6 +8,23 @@
   "overview" : "Packages created by Typetail",
   "packages" : [
     {
+      "keywords" : [
+        "database",
+        "ios",
+        "mobile",
+        "mobile-database",
+        "objective-c",
+        "realtime",
+        "swift",
+        "sync",
+        "threadsafe"
+      ],
+      "license" : {
+        "name" : "NOASSERTION",
+        "url" : "https://raw.githubusercontent.com/realm/realm-swift/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/realm/realm-swift/master/README.md",
+      "summary" : "Realm is a mobile database: a replacement for Core Data & SQLite",
       "url" : "https://github.com/realm/realm-swift.git",
       "versions" : [
         {
@@ -71,135 +88,135 @@
               "toolsVersion" : "5.5"
             }
           },
+          "summary" : "Jenkins Git plugin tagging with v10.28.4",
+          "version" : "v10.28.4"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.28.3",
+          "version" : "v10.28.3"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
           "version" : "v10.28.2"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.28.1",
-          "version" : "v10.28.1"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.28.0",
-          "version" : "v10.28.0"
         },
         {
           "defaultToolsVersion" : "5.0",
@@ -461,6 +478,54 @@
             }
           },
           "summary" : "",
+          "version" : "7.3.1"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.14"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "5.0"
+                }
+              ],
+              "packageName" : "Kingfisher",
+              "products" : [
+                {
+                  "name" : "Kingfisher",
+                  "targets" : [
+                    "Kingfisher"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Kingfisher",
+                  "name" : "Kingfisher"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "",
           "version" : "7.3.0"
         },
         {
@@ -510,54 +575,6 @@
           },
           "summary" : "",
           "version" : "7.2.4"
-        },
-        {
-          "defaultToolsVersion" : "5.1",
-          "manifests" : {
-            "5.1" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "ios",
-                  "version" : "12.0"
-                },
-                {
-                  "name" : "macos",
-                  "version" : "10.14"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "12.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "5.0"
-                }
-              ],
-              "packageName" : "Kingfisher",
-              "products" : [
-                {
-                  "name" : "Kingfisher",
-                  "targets" : [
-                    "Kingfisher"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Kingfisher",
-                  "name" : "Kingfisher"
-                }
-              ],
-              "toolsVersion" : "5.1"
-            }
-          },
-          "summary" : "",
-          "version" : "7.2.3"
         },
         {
           "defaultToolsVersion" : "5.1",
@@ -990,6 +1007,11 @@
         "swift",
         "xcode"
       ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/arturdev/Unrealm/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/arturdev/Unrealm/master/README.md",
       "summary" : "Unrealm is an extension on RealmCocoa, which enables Swift native types to be saved in Realm.",
       "url" : "https://github.com/arturdev/Unrealm.git",
       "versions" : [
@@ -1429,6 +1451,151 @@
             }
           },
           "version" : "4.3.0"
+        }
+      ]
+    },
+    {
+      "keywords" : [
+
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/siteline/SwiftUI-Introspect/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/siteline/SwiftUI-Introspect/master/README.md",
+      "summary" : "Introspect underlying UIKit components from SwiftUI",
+      "url" : "https://github.com/siteline/SwiftUI-Introspect.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                }
+              ],
+              "packageName" : "Introspect",
+              "products" : [
+                {
+                  "name" : "Introspect",
+                  "targets" : [
+                    "Introspect"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Introspect",
+                  "name" : "Introspect"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "introspectSplitViewController, introspectColorWell, introspectButton, introspectTabView, + fixes",
+          "version" : "0.1.4"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                }
+              ],
+              "packageName" : "Introspect",
+              "products" : [
+                {
+                  "name" : "Introspect",
+                  "targets" : [
+                    "Introspect"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Introspect",
+                  "name" : "Introspect"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "version" : "0.1.3"
+        },
+        {
+          "defaultToolsVersion" : "5.1",
+          "manifests" : {
+            "5.1" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                }
+              ],
+              "packageName" : "Introspect",
+              "products" : [
+                {
+                  "name" : "Introspect",
+                  "targets" : [
+                    "Introspect"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Introspect",
+                  "name" : "Introspect"
+                }
+              ],
+              "toolsVersion" : "5.1"
+            }
+          },
+          "summary" : "SPM: iOS 11, tvOS 11, macOS 10.13",
+          "version" : "0.1.2"
         }
       ]
     }
