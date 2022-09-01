@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2022-08-26T13:57:17Z",
+  "generatedAt" : "2022-09-01T08:11:59Z",
   "generatedBy" : {
     "name" : "Krishnan PA"
   },
@@ -1597,6 +1597,100 @@
           },
           "summary" : "SPM: iOS 11, tvOS 11, macOS 10.13",
           "version" : "0.1.2"
+        }
+      ]
+    },
+    {
+      "keywords" : [
+
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/markrenaud/FilePicker/main/LICENCE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/markrenaud/FilePicker/main/README.md",
+      "summary" : "An easy-to-use cross platform file picker for SwiftUI.",
+      "url" : "https://github.com/markrenaud/FilePicker",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.3",
+          "manifests" : {
+            "5.3" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "14.0"
+                }
+              ],
+              "packageName" : "FilePicker",
+              "products" : [
+                {
+                  "name" : "FilePicker",
+                  "targets" : [
+                    "FilePicker"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "FilePicker",
+                  "name" : "FilePicker"
+                }
+              ],
+              "toolsVersion" : "5.3"
+            }
+          },
+          "summary" : "Fix macOS versioning.  Improved licence documentation in source files.",
+          "version" : "1.0.1"
+        },
+        {
+          "defaultToolsVersion" : "5.3",
+          "manifests" : {
+            "5.3" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.15"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "14.0"
+                }
+              ],
+              "packageName" : "FilePicker",
+              "products" : [
+                {
+                  "name" : "FilePicker",
+                  "targets" : [
+                    "FilePicker"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "FilePicker",
+                  "name" : "FilePicker"
+                }
+              ],
+              "toolsVersion" : "5.3"
+            }
+          },
+          "summary" : "Initial Release",
+          "version" : "1.0.0"
         }
       ]
     }
