@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2022-09-01T08:11:59Z",
+  "generatedAt" : "2022-09-19T03:57:02Z",
   "generatedBy" : {
     "name" : "Krishnan PA"
   },
@@ -20,7 +20,7 @@
         "threadsafe"
       ],
       "license" : {
-        "name" : "NOASSERTION",
+        "name" : "Apache-2.0",
         "url" : "https://raw.githubusercontent.com/realm/realm-swift/master/LICENSE"
       },
       "readmeURL" : "https://raw.githubusercontent.com/realm/realm-swift/master/README.md",
@@ -88,136 +88,136 @@
               "toolsVersion" : "5.5"
             }
           },
+          "summary" : "Jenkins Git plugin tagging with v10.29.0",
+          "version" : "v10.29.0"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "summary" : "Jenkins Git plugin tagging with v10.28.7",
+          "version" : "v10.28.7"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "Realm",
+              "products" : [
+                {
+                  "name" : "Realm",
+                  "targets" : [
+                    "Realm"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "RealmSwift",
+                  "targets" : [
+                    "Realm",
+                    "RealmSwift"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "Realm",
+                  "name" : "Realm"
+                },
+                {
+                  "moduleName" : "RealmSwift",
+                  "name" : "RealmSwift"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
           "summary" : "Jenkins Git plugin tagging with v10.28.6",
           "version" : "v10.28.6"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.28.5",
-          "version" : "v10.28.5"
-        },
-        {
-          "defaultToolsVersion" : "5.5",
-          "manifests" : {
-            "5.5" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.10"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "11.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "Realm",
-              "products" : [
-                {
-                  "name" : "Realm",
-                  "targets" : [
-                    "Realm"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "RealmSwift",
-                  "targets" : [
-                    "Realm",
-                    "RealmSwift"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "Realm",
-                  "name" : "Realm"
-                },
-                {
-                  "moduleName" : "RealmSwift",
-                  "name" : "RealmSwift"
-                }
-              ],
-              "toolsVersion" : "5.5"
-            }
-          },
-          "summary" : "Jenkins Git plugin tagging with v10.28.4",
-          "version" : "v10.28.4"
         },
         {
           "defaultToolsVersion" : "5.0",
